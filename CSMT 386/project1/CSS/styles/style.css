@@ -1,0 +1,147 @@
+html body {
+  height: 100%;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+button {
+  border: 1px solid transparent;
+  border-radius: 20%;
+  background-image: linear-gradient(red, grey);
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px black;
+  text-align: center;
+}
+
+
+
+nav {
+  overflow: hidden;
+  background-color: grey;
+}
+
+nav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+  font-size: 32px;
+  position: relative;
+}
+
+nav a:hover {
+  background-color: red;
+  color: black;
+  opacity: 1;
+}
+
+nav a.active {
+  background-color: red;
+  color: white;
+}
+
+ul.sub-menu {
+  position: absolute;
+  background-color: grey;
+  list-style-type: none;
+  width: 170px;
+  padding-right: 10px;
+  margin-left: 115px;
+  margin-top: 50px;
+  font-size: 32px;
+  color: white;
+}
+
+
+
+.photogallery {
+  text-align: center;
+  font-size: 41px;
+}
+
+img.logo {
+  width: 100%;
+}
+
+.centertitle {
+  text-align: center;
+  font-size: 52px;
+  font-family: cursive;
+}
+
+h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-left: 310px;
+
+  font-weight: bold;
+}
+
+p {
+  margin-left: 300px;
+
+  display: flex;
+}
+
+b {
+  margin-left: 340px;
+  margin-right: 500px;
+  display: block;
+}
+button{
+margin-top: 10px;
+margin-left: 50px;
+
+}
+ul {
+  margin-left: 300px;
+}
+
+.centerintro {
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Courier New', Courier, monospace;
+  display: block;
+}
+
+div.gallery {
+  margin-left: 90px;
+  border: 5px solid red;
+  float: left;
+  width: 200px;
+  margin-right: 70px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+figcaption {
+  padding: 10px;
+  text-align: center;
+}
+footer {
+  position: absolute;
+  width: 100%;
+  background-color: grey;
+  text-align: center;
+  margin-top: 700px;
+}
