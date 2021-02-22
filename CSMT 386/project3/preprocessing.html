@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html id="top" lang="en">
+ <head>
+	<link rel="stylesheet" href="../project1/CSS/styles/style.css" type="text/css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title> CMST 386 | Learn Preprocessing</title>
+	 <Meta name="description" content="Learn about Sass/Scss mechanisms and how this preprocessor relates to CSS">
+	 <Meta name="keywords" content="SASS, LESS, CSS, Mixins, functions, Operators, nest">
+</head>
+<body>
+	<!-- How I implemented SASS: I am using Mac OS laptop, the software I am using is Visual Studio code (VSC). I downloaded an extension in order for any Sass/scss files to be watched and compile my .Scss files into .css files.  Visual studio code automatically ran my scss file and created a .css and style.css.map to ensure all code is mapped and compiled properly.  Anytime I added/edited code within scss and saved it. The .css file is automatically updated. The only issue would be if any errors are found. In this case the preprocessor wont compile and convert into the .css until any errors was fixed.  I ensured I took advantage of variables for color’s and font throughout my styling mainly. I also dabbled in nesting to ensure better readability.  -->
+	<div class="header">
+		<img class="logo" src="../project1/images/logo_banner.jpg" alt="logo">
+	</div>
+	
+	<div class="navbar">
+	  <a href="/index.html">Home</a>
+	  <a href="./project3.html">Project3</a>
+	  <ul class="breadcrumbs"> 
+		<li class="breadcrumbs__item">
+		<a href="/index.html" class="breadcrumbs__link">Home</a>
+		</li>
+	    <li class="breadcrumbs__item">
+		<a href="./project3.html" class="breadcrumbs__link">Project3</a>
+	    </li>
+	    <li class="breadcrumbs__item">
+		<a href="./preprocessing.html" class="breadcrumbs__link breadcrumbs__link--active">SASS</a>
+	    </li>
+	    </ul>
+	    </div>
+	
+	<div class="row">
+	  <div class="side">
+	    <h2>Explain the ways to implement preprocessing (client-side vs server-side)</h2>
+	<p>A standard webpage using HTML, CSS, Javascript will be processed on the client-side, this is compiled on our computer making this client-side. The server uses web servers, databases, and languages. Although the server side the compilation and the transpiration happen, the client is not involved, they just received the output. Some examples such as PHP, Node.js, and ruby are server-side because all the processing is done via the server. </p>
+	    
+	    <br><br><br><br>
+	    <img src="../project1/images/cvs2.jpg" alt="cvs" >
+	  </div>
+
+	  <div class="main">
+	    <h2>Define and describes the mechanisms used in either LESS or SASS: mixins, variables, functions, operators, nested variables.</h2>
+	    <p>SASS stands for Syntactically awesome style sheets. This is an extension of CSS that enables you to use items like variables, nested rules, imports, mixins, operators, and more. This comes in two syntax options; .SCSS and .SASS  <br><br>
+		Sass allows the use of variables that can store the information you can use throughout your style sheet. You can store things like colors, and other CSS values that are worth reusing. Using the $ symbol in Sass makes something variable.</p>
+		<p> <b>Nesting </b>can reduce the amount of code you need to write, by nesting your CSS selectors that can follow the same visual hierarchy of your HTML. while <b>Mixins</b> is an advantage when using preprocessors since it can take complex, long code and simplify it. Lastly, if using Sass,  <b>Operators</b> can help perform calculations in your CSS so you may do more such as converting temperatures, having access to math functions like subtraction, multiplication, addition, and more. Sass preprocessor is a great way to reduce time coding with CSS as a standalone while having functionality on your sites!.</p>
+          
+	    <br>
+	    <img src="../project1/images/SASS.jpg" alt="precss" class="responsive">
+	    <a href="#top">Jump to top of page</a>
+	  </div>
+	</div>
+	
+	<!-- Footer -->
+	<div class="footer">
+	<h2>2021 | Daniel Montalvo<br>
+	<a href="mailto:dandmontalvo@gmail.com">Dandmontalvo@gmail.com</a></h2>
+	</div>
+	</body>
+	</html>
+	
+	
